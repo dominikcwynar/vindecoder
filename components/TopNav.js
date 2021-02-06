@@ -21,7 +21,9 @@ const TopNav = () => {
           variant="outline"
           size="sm"
           icon={<FaGithub />}
-          onClick={() => window.open("https://github.com")}
+          onClick={() =>
+            window.open("https://github.com/dominikcwynar/vindecoder")
+          }
         />
       </HStack>
     </Flex>
