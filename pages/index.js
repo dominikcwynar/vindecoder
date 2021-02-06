@@ -3,7 +3,7 @@ import { useState } from "react";
 import VinDisplay from "../components/VinDisplay";
 // import useUrl from "../hooks/useUrl";
 import { Spacer, Input, Button, HStack, VStack } from "@chakra-ui/react";
-import { useToast } from "@chakra-ui/react";
+import { useToast, Box } from "@chakra-ui/react";
 // import Mode from "../components/Mode";
 // import { Select } from "@chakra-ui/react";
 
@@ -86,6 +86,7 @@ export default function Home() {
       {decodedVin["Results"] && (
         <VinDisplay decodedVin={decodedVin} vin={vin} />
       )}
+      <Box height="200px"></Box>
     </VStack>
   );
 }
